@@ -30,8 +30,10 @@ const useStyles = makeStyles((theme) => ({
 
   overlay: {
     height : '350px',
+    width: '100%',
     position: 'relative',
     backgroundColor: 'rgba(0,0,0,0.4)',
+    borderRadius: '2%',
   },
   FeaturedPostContent: {
     position: 'relative',
