@@ -49,102 +49,102 @@ const useStyles = makeStyles((theme) => ({
 
 
 const mainFeaturedPost = {
-  title: 'Lionel Messi se despide entre lágrimas del FC Barcelona: "Llegué con 13 años, siendo muy chiquito; después de 21 años, me voy".  ',
+  title: 'Lideresas indígenas piden a Gobierno respetar derechos de las mujeres y LGBTI',
   description:
     '',
-  image: 'https://media.diariolasamericas.com/p/2a3dce4e2856f6db8f330a80f3d12a87/adjuntos/216/imagenes/002/383/0002383183/el-delantero-argentino-del-barcelona-lionel-messi-llora-al-comienzo-una-conferencia-prensa-el-estadio-camp-nou-barcelona.jpg',
+  image: 'https://portal.andina.pe/EDPfotografia3/Thumbnail/2019/05/08/000584703W.jpg',
   imgText: 'main image description',
   linkText: 'image',
 };
 
 const Politica = [
   {
-    title: "Buena noticia! Ya son más de 6 millones de peruanos que recibieron su segunda dosis de la vacuna contra la Covid-19.",
+    title: 'Presidente Pedro Castillo: “Este es un Congreso inteligente, este es un Congreso nuevo, este es un Congreso puesto por el país y yo no creo que este Congreso le deba algo a alguien”.',
     date: 'Nov 12',
     description:
       '',
-    image: 'https://portal.andina.pe/EDPfotografia3/Thumbnail/2021/06/24/000784528W.jpg',
+    image: 'https://s.france24.com/media/display/fef22c28-9bbd-11eb-9104-005056a9b1a7/pedro%20castillo.png',
     imageText: 'Image Text',
   },
   {
-    title: "San Martín de Porres: al menos 140 personas fueron intervenidas en recinto que funcionaba como discoteca y prostíbulo clandestino. ",
+    title: "Titular del Ministerio del Interio, nombra a Olga Chagua y Gabriela Paliza, como viceministras de la cartera.",
     date: 'Nov 11',
     description:
       '',
-    image: 'http://cde.2.trome.pe/ima/0/0/9/9/7/997534.jpg',
+    image: 'https://portal.andina.pe/EDPfotografia3/Thumbnail/2021/08/12/000798427W.jpg',
     imageText: 'Image Text',
   },
   {
-    title: "Guido Bellido no descarta indulto a Antauro Humala: 'Un gobierno debe tener sentimiento humano'",
+    title: "Parlamentarios de AvanzaPais han presentado una moción que busca considerar designación de Guido Bellido como primer ministro como 'acto inmoral'",
     date: 'Nov 12',
     description:
       '',
-    image: 'https://larepublica.pe/resizer/SPQszv8fWqp9vtiP8S4Kbh0hJLc=/480x282/top/smart/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/POQTULSB3JB4TOCCO2JKYBGC3E.jpg',
+    image: 'https://www.radioyaravi.org.pe/storage/news/20210817-104919_Congreso-Consejo-Directivo-ver---moci--n-de-interpelaci--n-a-ministro-H--ctor-B--jar-este-martes.png',
     imageText: 'Image Text',
   },
 ];
 
 const Deporte = [
   {
-    title: "Alianza Lima venció 2-0 a la San Martín por la fecha 5 de la Liga 1 Betsson. El cuadro blanquiazul está primero en el Torneo Clausura con 11 puntos.  J. Ballón 22' y J. Concha 83'",
+    title: "El entrenador argentino dirigió ante Alianza Lima su último partido al mando de Universitario.    ",
     date: 'Nov 12',
     description:
       '',
-    image: 'https://larepublica.pe/resizer/i4kvKsxUIQYGDKWC6VC-jcMLnew=/1250x735/top/smart/arc-anglerfish-arc2-prod-gruporepublica.s3.amazonaws.com/public/IGOL4LP33ZDRJOZNKPHFNIFQCY.jpg',
+    image: 'https://e.rpp-noticias.io/normal/2021/08/18/271427_1133547.jpg',
     imageText: 'Image Text',
   },
   {
-    title: "Argentinos Juniors y Boca Juniors empataron 1-1 en la Bombonera, por la fecha 5 de la Fase 2 de la Liga Argentina.   Luis Advíncula entró a los 86'. Zambrano no jugó.",
+    title: "Con Ruidíaz desde los 62 minutos, Seattle Sounders venció 1-0 a FC Dallas por la fecha 20 de la MLS(Conferencia Oeste).",
     date: 'Nov 11',
     description:
       '',
-    image: 'https://t.resfu.com/media/img_news/agencia-efe_multimedia_2903131.multimedia.photos.11694709.file.jpg?size=776x&q=60',
+    image: 'https://files.diarioextra.com/files/Dnews/images/detail/457520_raul.jpg',
     imageText: 'Image Text',
   },
   {
-    title: 'COMIENZA LA CONFERENCIA DE PRENSA! Lionel Messi declara en el Camp Nou tras su salida inesperada del FC Barcelona.',
+    title: '¡SE ROMPIÓ! ClubALoficial derrotó 2-1 a Universitario en una nueva edición del  Por la fecha 7 de la Fase 2 de la  los íntimos se alzaron con el triunfo     ',
     date: 'Nov 12',
     description:
       '',
-    image: 'https://fotos.perfil.com/2021/08/07/trim/1280/720/lionel-messi-1214861.jpg',
+    image: 'https://e.rpp-noticias.io/normal/2020/03/08/210721_910700.jpg',
     imageText: 'Image Text',
   },
 ];
 
 const Farandula = [
   {
-    title: "Yidda Eslava y Julián Zucchi se vacunaron contra la COVID-19: 'Vengan a vacunarse todos por el Perú'.",
+    title: " Sheyla Rojas revela cómo es su relación con Joi Sánchez, novia de Antonio Pavón  ",
     date: 'Nov 12',
     description:
       '',
-    image: 'https://e.rpp-noticias.io/normal/2020/04/17/102110_929096.jpg',
+    image: 'https://e.an.amtv.pe/espectaculos-sheyla-rojas-respondio-asi-ataques-antonio-pavon-n199662-1200x630-210477.jpg',
     imageText: 'Image Text',
   },
   {
-    title: "Lionel Messi se va del Barcelona al PSG: conferencia en vivo desde el Camp Nou: hora y canal",
+    title: "Ivana Yturbe y Beto Da Silva cumplieron seis meses de matrimonio",
     date: 'Nov 11',
     description:
       '',
-    image: 'https://elpopular.cronosmedia.glr.pe/original/2021/08/08/610f822a8ddba22fbb5003bd.jpg',
+    image: 'https://prod.media.wapa.pe/1200x630/wapa/imagen/2021/01/20/noticia-1611172753-ivana-yturbe-se-caso-con-beto-de-silva-video.jpg',
     imageText: 'Image Text',
   },
 ];
 
 const featuredPosts = [
   {
-    title: ' Una residente de Florida de 99 años entra en el Libro Guinness al convertirse en la pesista de más edad del mundo.   Puede levantar hasta 150 libras.',
+    title: 'Estas son las claves para entender qué está pasando en Afganistán y cómo se llegó a la situación actual',
     date: 'Nov 12',
     description:
       '',
-    image: 'https://img.nbc.com/sites/nbcunbc/files/images/2021/8/07/17917013423-hd.jpg',
+    image: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/3A16/production/_119907841_301f5ec7-23e5-4ca1-8d11-27b602016281.jpg',
     imageText: 'Image Text',
   },
   {
-    title: ' Actualmente, Florida es el epicentro de la pandemia en el país, pero en otros estados las cifras de contagios y hospitalizaciones por covid-19 también son preocupantes.',
+    title: 'Grace toca tierra al sur de Tulum, en México, como un huracán categoría 1 con vientos máximos sostenidos de 80 millas por hora.     ',
     date: 'Nov 11',
     description:
       '',
-    image: 'https://800noticias.com/cms/wp-content/uploads/2020/04/Miami-Dade-coronavirus.jpg',
+    image: 'https://cdn-3.expansion.mx/dims4/default/521d6bc/2147483647/strip/true/crop/1024x744+0+0/resize/800x581!/format/webp/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fc4%2F9a%2F5fd9e9de4076a480dd8a882a7350%2F000-9lc274.jpg',
     imageText: 'Image Text',
   },
 ];

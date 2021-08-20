@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
     position: 'relative',
     padding: theme.spacing(3),
     [theme.breakpoints.up('md')]: {
-      padding: theme.spacing(6),
+      padding: theme.spacing(3),
       paddingRight: 0,
       },
   },
@@ -58,7 +58,7 @@ export default function Posting(props) {
         <Grid item md={9}>
           <div className={classes.FeaturedPostContent}>
             <ThemeProvider theme={themes}>
-              <Typography component="h1" variant="h5" color="inherit" gutterBottom className={classes.text}>
+              <Typography component="h2" variant="h6" color="inherit" gutterBottom className={classes.text}>
                 {posti.title}
               </Typography>
               <Typography variant="h5" color="inherit" paragraph className={classes.text}>
