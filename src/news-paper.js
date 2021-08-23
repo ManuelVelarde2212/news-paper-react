@@ -49,102 +49,101 @@ const useStyles = makeStyles((theme) => ({
 
 
 const mainFeaturedPost = {
-  title: 'Lideresas indígenas piden a Gobierno respetar derechos de las mujeres y LGBTI',
+  title: 'Allison Pastor tiene cruce de palabras con Gisela Valcárcel y se retira de “Reinas del Show',
   description:
     '',
-  image: 'https://portal.andina.pe/EDPfotografia3/Thumbnail/2019/05/08/000584703W.jpg',
+  image: 'https://lanoticia.com.pe/wp-content/uploads/2021/07/13.1-Allison-Pastor-e1626853327448.jpg',
   imgText: 'main image description',
   linkText: 'image',
 };
 
 const Politica = [
   {
-    title: 'Presidente Pedro Castillo: “Este es un Congreso inteligente, este es un Congreso nuevo, este es un Congreso puesto por el país y yo no creo que este Congreso le deba algo a alguien”.',
+    title: 'Según la ContraloriaPeru, la irregular contratación de personal de confianza en la gestión de JorgeMunozPe habría generado un perjuicio económico de más de S/ 1.8 millones a la MuniLima.',
     date: 'Nov 12',
     description:
       '',
-    image: 'https://s.france24.com/media/display/fef22c28-9bbd-11eb-9104-005056a9b1a7/pedro%20castillo.png',
+    image: 'https://www.tvperu.gob.pe/sites/default/files/000553665w.jpg',
     imageText: 'Image Text',
   },
   {
-    title: "Titular del Ministerio del Interio, nombra a Olga Chagua y Gabriela Paliza, como viceministras de la cartera.",
+    title: " Juan Carrasco: “Nunca interferí en una investigación como fiscal y no lo haré como ministro”  El primer ministro del Interior de Pedro Castillo habló sobre los temas polémicos que enfrenta su despacho.",
     date: 'Nov 11',
     description:
       '',
-    image: 'https://portal.andina.pe/EDPfotografia3/Thumbnail/2021/08/12/000798427W.jpg',
+    image: 'https://as01.epimg.net/peru/imagenes/2021/08/03/actualidad/1628009322_593755_1628009499_noticia_normal_recorte1.jpg',
     imageText: 'Image Text',
   },
   {
-    title: "Parlamentarios de AvanzaPais han presentado una moción que busca considerar designación de Guido Bellido como primer ministro como 'acto inmoral'",
+    title: "Ministro del Ambiente, Rubén Ramírez, visita feria de productos ecológicos y sostenibles en San Borja.",
     date: 'Nov 12',
     description:
       '',
-    image: 'https://www.radioyaravi.org.pe/storage/news/20210817-104919_Congreso-Consejo-Directivo-ver---moci--n-de-interpelaci--n-a-ministro-H--ctor-B--jar-este-martes.png',
+    image: 'https://industriaspesqueras.com/imagenes/genericas/standard_232130430_10159904317109973_5816754285378887220_n.jpg',
     imageText: 'Image Text',
   },
 ];
 
 const Deporte = [
   {
-    title: "El entrenador argentino dirigió ante Alianza Lima su último partido al mando de Universitario.    ",
+    title: "¡DUELO DE ALTURA! Club_Cienciano se mide ante BinacionalFC por la octava fecha de la Fase 2 de la  Desde el estadio Iván Elías Moreno, los planteles irán por el triunfo.",
     date: 'Nov 12',
     description:
       '',
-    image: 'https://e.rpp-noticias.io/normal/2021/08/18/271427_1133547.jpg',
+    image: 'https://imgmedia.libero.pe/748x396/libero/original/2021/08/22/61228c8c28e19d6e6321adaa.jpg',
     imageText: 'Image Text',
   },
   {
-    title: "Con Ruidíaz desde los 62 minutos, Seattle Sounders venció 1-0 a FC Dallas por la fecha 20 de la MLS(Conferencia Oeste).",
+    title: "Con Yoshimar Yotún todo el partido, Cruz Azul empató 0-0 ante San Luis por la fecha 6 de la Liga MX. El equipo dirigido por Reynoso se ubica en la sexta casilla del torneo.  Cruz Azul ha sumado su quinto partido invicto en la Liga MX.",
     date: 'Nov 11',
     description:
       '',
-    image: 'https://files.diarioextra.com/files/Dnews/images/detail/457520_raul.jpg',
+    image: 'https://cdn.futbolperuano.com/sdi/2021/04/13/cruz-azul-vs-arcahaie-en-vivo-con-yoshimar-yotun-por-octavos-de-final-de-concachampions-909841.jpg',
     imageText: 'Image Text',
   },
   {
-    title: '¡SE ROMPIÓ! ClubALoficial derrotó 2-1 a Universitario en una nueva edición del  Por la fecha 7 de la Fase 2 de la  los íntimos se alzaron con el triunfo     ',
+    title: '15 minutos le bastaron a Romelu Lukaku  para anotar su primer gol con el Chelsea . ¡La ‘bestia’ está de vuelta!',
     date: 'Nov 12',
     description:
       '',
-    image: 'https://e.rpp-noticias.io/normal/2020/03/08/210721_910700.jpg',
+    image: 'https://phantom-marca.unidadeditorial.es/db7e76b73d4495d8bd23226a4bbc1d8d/resize/1320/f/jpg/assets/multimedia/imagenes/2021/08/03/16280136951368.jpg',
     imageText: 'Image Text',
   },
 ];
 
 const Farandula = [
   {
-    title: " Sheyla Rojas revela cómo es su relación con Joi Sánchez, novia de Antonio Pavón  ",
+    title: "Erick Elera dedica mensaje a Allison Pastor tras su renuncia en vivo a Reinas del show",
     date: 'Nov 12',
     description:
       '',
-    image: 'https://e.an.amtv.pe/espectaculos-sheyla-rojas-respondio-asi-ataques-antonio-pavon-n199662-1200x630-210477.jpg',
+    image: 'https://cde.peru.com//ima/0/1/5/4/3/1543412/924x530/allison-pastor-romero.jpg',
     imageText: 'Image Text',
   },
   {
-    title: "Ivana Yturbe y Beto Da Silva cumplieron seis meses de matrimonio",
+    title: "Hombre le propone casamiento a su esposa con Alzheimer cada semana.",
     date: 'Nov 11',
     description:
       '',
-    image: 'https://prod.media.wapa.pe/1200x630/wapa/imagen/2021/01/20/noticia-1611172753-ivana-yturbe-se-caso-con-beto-de-silva-video.jpg',
+    image: 'https://media.infocielo.com/p/f95fc0b8da67d3d96679b1522239b784/adjuntos/299/imagenes/001/282/0001282691/540x360/smart/video-viral-alzheimerjpg.jpg',
     imageText: 'Image Text',
   },
 ];
 
 const featuredPosts = [
   {
-    title: 'Estas son las claves para entender qué está pasando en Afganistán y cómo se llegó a la situación actual',
-    date: 'Nov 12',
+    title: 'El presidente Biden habla sobre la respuesta de su administración a la tormenta tropical Henri y da una actualización sobre la situación en Afganistán.  ',
     description:
       '',
-    image: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/3A16/production/_119907841_301f5ec7-23e5-4ca1-8d11-27b602016281.jpg',
+    image: 'https://s.france24.com/media/display/9c71e584-01e8-11ec-b1fc-005056a97e36/w:1280/p:16x9/BIDEN%201%20%284%29.webp',
     imageText: 'Image Text',
   },
   {
-    title: 'Grace toca tierra al sur de Tulum, en México, como un huracán categoría 1 con vientos máximos sostenidos de 80 millas por hora.     ',
+    title: 'Estados Unidos ordenó este domingo a varias aerolíneas comerciales asistir en la evacuación de los afganos.',
     date: 'Nov 11',
     description:
       '',
-    image: 'https://cdn-3.expansion.mx/dims4/default/521d6bc/2147483647/strip/true/crop/1024x744+0+0/resize/800x581!/format/webp/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fc4%2F9a%2F5fd9e9de4076a480dd8a882a7350%2F000-9lc274.jpg',
+    image: 'https://media.vozpopuli.com/2021/08/20/biden-scaled-e1629496221361-1568x881.jpg',
     imageText: 'Image Text',
   },
 ];
