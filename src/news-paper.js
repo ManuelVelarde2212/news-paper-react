@@ -49,29 +49,29 @@ const useStyles = makeStyles((theme) => ({
 
 
 const mainFeaturedPost = {
-  title: 'Allison Pastor tiene cruce de palabras con Gisela Valcárcel y se retira de “Reinas del Show',
+  title: 'A 29 años de la captura de Abimael Guzmán (y a propósito de su muerte), desmentimos algunos mitos sobre su arresto',
   description:
     '',
-  image: 'https://lanoticia.com.pe/wp-content/uploads/2021/07/13.1-Allison-Pastor-e1626853327448.jpg',
+  image: 'https://pbs.twimg.com/media/E_HoAGVXoAA1TK9.jpg:large',
   imgText: 'main image description',
   linkText: 'image',
 };
 
 const Politica = [
   {
-    title: 'Según la ContraloriaPeru, la irregular contratación de personal de confianza en la gestión de JorgeMunozPe habría generado un perjuicio económico de más de S/ 1.8 millones a la MuniLima.',
+    title: 'Cercado de Lima: ministro de Cultura, Ciro Gálvez, inspecciona los trabajos en el complejo arqueológico Mateo Salado.',
     date: 'Nov 12',
     description:
       '',
-    image: 'https://www.tvperu.gob.pe/sites/default/files/000553665w.jpg',
+    image: 'https://cdn.www.gob.pe/uploads/document/file/2170708/standard_Ministro%20de%20Cultura%3A%20%E2%80%9CInvoco%20a%20los%20municipios%20a%20parar%20con%20las%20invasiones%20en%20los%20sitios%20arqueol%C3%B3gicos%E2%80%9D.jpeg',
     imageText: 'Image Text',
   },
   {
-    title: " Juan Carrasco: “Nunca interferí en una investigación como fiscal y no lo haré como ministro”  El primer ministro del Interior de Pedro Castillo habló sobre los temas polémicos que enfrenta su despacho.",
+    title: " Presidente PedroCastilloTe: Saludo a las bancadas del Congreso que han dejado algunas malas actitudes para sentarnos a conversar y poner una agenda llamada Perú.",
     date: 'Nov 11',
     description:
       '',
-    image: 'https://as01.epimg.net/peru/imagenes/2021/08/03/actualidad/1628009322_593755_1628009499_noticia_normal_recorte1.jpg',
+    image: 'https://larepublica.pe/resizer/S3OHKcgMaQ-3_ouS9mWdJke2EA0=/1200x660/top/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/HFRTOOBQHEZTSY3GMU4TIZRTGU.jpg',
     imageText: 'Image Text',
   },
   {
@@ -86,64 +86,64 @@ const Politica = [
 
 const Deporte = [
   {
-    title: "¡DUELO DE ALTURA! Club_Cienciano se mide ante BinacionalFC por la octava fecha de la Fase 2 de la  Desde el estadio Iván Elías Moreno, los planteles irán por el triunfo.",
+    title: "¡ESTUVO CERCA! Mira con nuestra cámara exclusiva  a ras de cancha el momento en que Hernán Barcos  tuvo el primer tanto de ClubALoficial , pero un atento Raúl Fernández fue más",
     date: 'Nov 12',
     description:
       '',
-    image: 'https://imgmedia.libero.pe/748x396/libero/original/2021/08/22/61228c8c28e19d6e6321adaa.jpg',
+    image: 'https://radiokaribena.pe/wp-content/uploads/2021/02/mauri-fernandez.png',
     imageText: 'Image Text',
   },
   {
-    title: "Con Yoshimar Yotún todo el partido, Cruz Azul empató 0-0 ante San Luis por la fecha 6 de la Liga MX. El equipo dirigido por Reynoso se ubica en la sexta casilla del torneo.  Cruz Azul ha sumado su quinto partido invicto en la Liga MX.",
+    title: "¡Gran gesto! El equipo masculino de Alianza Lima salió a jugar su partido ante Binacional con los apellidos de las jugadoras del plantel femenino, quienes salieron campeonas de la LigaFemeninaxMDeportes 2021.",
     date: 'Nov 11',
     description:
       '',
-    image: 'https://cdn.futbolperuano.com/sdi/2021/04/13/cruz-azul-vs-arcahaie-en-vivo-con-yoshimar-yotun-por-octavos-de-final-de-concachampions-909841.jpg',
+    image: 'https://cdn.futbolperuano.com/sdi/2021/09/12/jugadores-de-alianza-lima-llevaran-camisetas-con-el-nombre-de-su-plantel-femenino-ante-binacional-950893.jpg',
     imageText: 'Image Text',
   },
   {
-    title: '15 minutos le bastaron a Romelu Lukaku  para anotar su primer gol con el Chelsea . ¡La ‘bestia’ está de vuelta!',
+    title: '¡REMONTADA BLANQUIAZUL!  Jefferson Farfán se encargó de anotar un golazo de tiro libre para darle el triunfo por 3-2 a Alianza Lima frente a Binacional. ¡Los blanquiazules siguen como firmes líderes de la Fase 2! ',
     date: 'Nov 12',
     description:
       '',
-    image: 'https://phantom-marca.unidadeditorial.es/db7e76b73d4495d8bd23226a4bbc1d8d/resize/1320/f/jpg/assets/multimedia/imagenes/2021/08/03/16280136951368.jpg',
+    image: 'https://larepublica.pe/resizer/qXNppZsNhW2OZHy3l90TcJ0nceI=/1200x660/top/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/UVLVUP6E4NBKRF3DNCLCCENRUE.jpg',
     imageText: 'Image Text',
   },
 ];
 
 const Farandula = [
   {
-    title: "Erick Elera dedica mensaje a Allison Pastor tras su renuncia en vivo a Reinas del show",
+    title: "Magaly Medina revela que perdió las esperanzas de internacionalizarse: “Ya lo intenté”",
     date: 'Nov 12',
     description:
       '',
-    image: 'https://cde.peru.com//ima/0/1/5/4/3/1543412/924x530/allison-pastor-romero.jpg',
+    image: 'https://www.expreso.com.pe/wp-content/uploads/2019/11/Magaly-Medina.jpg',
     imageText: 'Image Text',
   },
   {
-    title: "Hombre le propone casamiento a su esposa con Alzheimer cada semana.",
+    title: "Reinas del show 2: ¿quiénes se quedaron y cuántas fueron a sentencia en la segunda gala?",
     date: 'Nov 11',
     description:
       '',
-    image: 'https://media.infocielo.com/p/f95fc0b8da67d3d96679b1522239b784/adjuntos/299/imagenes/001/282/0001282691/540x360/smart/video-viral-alzheimerjpg.jpg',
+    image: 'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAM1RAb.img?h=0&w=600&m=6&q=60&u=t&o=f&l=f&x=618&y=121',
     imageText: 'Image Text',
   },
 ];
 
 const featuredPosts = [
   {
-    title: 'El presidente Biden habla sobre la respuesta de su administración a la tormenta tropical Henri y da una actualización sobre la situación en Afganistán.  ',
+    title: 'No había cuerpos completos: Topos mexicanos recuerdan las labores de rescate tras los ataques del 9/11.',
     description:
       '',
-    image: 'https://s.france24.com/media/display/9c71e584-01e8-11ec-b1fc-005056a97e36/w:1280/p:16x9/BIDEN%201%20%284%29.webp',
+    image: 'https://ichef.bbci.co.uk/news/640/amz/worldservice/live/assets/images/2014/09/26/140926130304_topos_624x351_ap.jpg',
     imageText: 'Image Text',
   },
   {
-    title: 'Estados Unidos ordenó este domingo a varias aerolíneas comerciales asistir en la evacuación de los afganos.',
+    title: 'Como instrumento para construir una narrativa rebelde, las criptomonedas pueden ser muy útiles como activo no reconocido por ningún otro país del mundo, Bukele se enfrentará a un golpe de realidad.',
     date: 'Nov 11',
     description:
       '',
-    image: 'https://media.vozpopuli.com/2021/08/20/biden-scaled-e1629496221361-1568x881.jpg',
+    image: 'https://imagenes.elpais.com/resizer/Jpst_sSIdMbAEpvxvwWyprlKaxY=/980x735/cloudfront-eu-central-1.images.arcpublishing.com/prisa/3ZUSXX2FSUPYT336YD53TU2PE4.jpg',
     imageText: 'Image Text',
   },
 ];
