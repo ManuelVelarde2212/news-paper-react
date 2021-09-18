@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
@@ -25,6 +24,10 @@ const useStyles = makeStyles((theme) => ({
     left: 0,
     backgroundColor: 'rgba(0,0,0,.3)',
     borderRadius: '2%',
+    "&:hover":{
+      color: 'white',
+      backgroundColor:'transparent',
+    },
   },
   TopPostContent: {
     position: 'relative',
@@ -34,7 +37,15 @@ const useStyles = makeStyles((theme) => ({
     paddingRight: 0,
     fontFamily: 'fontFamily',
     },
+    
   },
+  Tittle:{
+    fontSize: "70px",
+    fontWeight: 500,
+    letterSpacing: "-0.5px",
+    lineHeight: 1,
+    backgroundColor:"rgba(0,0,0,.7)",
+  }
 }));
 
 export default function TopMain(props) {
@@ -42,7 +53,6 @@ export default function TopMain(props) {
   const { post } = props;
   return (
     <Paper className={classes.TopMainPost} style={{ backgroundImage: `url(${post.image})` }}>
-      {/* Increase the priority of the hero background image */}
       {<img style={{ display: 'none' }} src={post.image} alt={post.imageText} />}
       <div className={classes.overlay}/>
       <Grid container>
@@ -50,9 +60,6 @@ export default function TopMain(props) {
           <div className={classes.TopPostContent}>
             <Typography component="h1" variant="h3" color="inherit" gutterBottom className={classes.Tittle}>
               {post.title}
-            </Typography>
-            <Typography variant="h5" color="inherit" paragraph >
-              {post.description}
             </Typography>
           </div>
         </Grid>

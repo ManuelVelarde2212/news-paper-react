@@ -33,9 +33,17 @@ const useStyles = makeStyles((theme) => ({
     paddingRight: 0,
     fontFamily: 'fontFamily',
     },
+    
   },
   title:{
-    fontFamily:"fontFamily"
+    fontFamily:"fontFamily",
+    fontSize: "6px",
+  },
+
+  Tittle:{
+    fontSize: "60px",
+    letterSpacing: "-0.5px",
+    lineHeight: 1
   }
 }));
 
@@ -52,9 +60,6 @@ export default function MainPost(props) {
           <div className={classes.mainFeaturedPostContent}>
             <Typography component="h1" variant="h3" color="inherit" gutterBottom className={classes.Tittle}>
               {post.title}
-            </Typography>
-            <Typography variant="h5" color="inherit" paragraph >
-              {post.description}
             </Typography>
           </div>
         </Grid>

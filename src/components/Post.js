@@ -9,7 +9,7 @@ import Grid from '@material-ui/core/Grid';
 
 const themes = createTheme({
   typography: {
-    fontFamily: 'Georama', 
+    fontFamily: 'Bebas Neue', 
   },
 });
 
@@ -34,6 +34,10 @@ const useStyles = makeStyles((theme) => ({
     position: 'relative',
     backgroundColor: 'rgba(0,0,0,0.4)',
     borderRadius: '2%',
+    "&:hover":{
+      color: 'white',
+      backgroundColor:'transparent',
+    },
   },
   FeaturedPostContent: {
     position: 'relative',
@@ -43,6 +47,13 @@ const useStyles = makeStyles((theme) => ({
       paddingRight: 0,
       },
   },
+  text:{
+    backgroundColor: "rgba(0,0,0,.7)",
+    fontSize: "30px",
+    fontWeight: 500,
+    letterSpacing: "-0.5px",
+    lineHeight: 1
+  }
 }));
 
 export default function Posting(props) {
@@ -60,11 +71,8 @@ export default function Posting(props) {
         <Grid item md={9}>
           <div className={classes.FeaturedPostContent}>
             <ThemeProvider theme={themes}>
-              <Typography component="h2" variant="h6" color="inherit" gutterBottom className={classes.text}>
+              <Typography component="h2" display="inline" variant="h6" color="inherit" gutterBottom className={classes.text}>
                 {posti.title}
-              </Typography>
-              <Typography variant="h5" color="inherit" paragraph className={classes.text}>
-                {posti.description}
               </Typography>
             </ThemeProvider>
           </div>
