@@ -52,7 +52,8 @@ export default function TopMain(props) {
   const classes = useStyles();
   const { post } = props;
   return (
-    <Paper className={classes.TopMainPost} style={{ backgroundImage: `url(${post.image})` }}>
+      <a href={post.enlace}>
+     <Paper className={classes.TopMainPost} style={{ backgroundImage: `url(${post.image})` }}>
       {<img style={{ display: 'none' }} src={post.image} alt={post.imageText} />}
       <div className={classes.overlay}/>
       <Grid container>
@@ -65,6 +66,7 @@ export default function TopMain(props) {
         </Grid>
       </Grid>
     </Paper>
+    </a>  
   );
 }
 

@@ -38,60 +38,70 @@ const useStyles = makeStyles((theme) => ({
 
 
 const General = {
-  title: 'A 29 años de la captura de Abimael Guzmán (y a propósito de su muerte), desmentimos algunos mitos sobre su arresto',
-  image: 'https://pbs.twimg.com/media/E_HoAGVXoAA1TK9.jpg:large',
+  title: 'Vacunación completa y prueba molecular negativa no mayor a 72 horas, son los requisitos principales para quienes ingresen al Perú.',
+  image: 'https://portal.andina.pe/EDPfotografia3/Thumbnail/2021/06/24/000784528W.jpg',
+  enlace: 'https://t.co/HlIkMjjjpJ'
 };
 
 const Politica = [
   {
-    title: 'Cercado de Lima: ministro de Cultura, Ciro Gálvez, inspecciona los trabajos en el complejo arqueológico Mateo Salado.',
-    image: 'https://cdn.www.gob.pe/uploads/document/file/2170708/standard_Ministro%20de%20Cultura%3A%20%E2%80%9CInvoco%20a%20los%20municipios%20a%20parar%20con%20las%20invasiones%20en%20los%20sitios%20arqueol%C3%B3gicos%E2%80%9D.jpeg',
+    title: 'Cobran S/ 15.600 por instalación y viven en la capital  Congresistas de FP, Renovación, Avanza País, APP, Podemos, Somos Perú, PL y JP solicitaron el pago extra por instalación, a pesar de tener residencia en Lima y Callao.',
+    image: 'https://static.dw.com/image/50684147_303.jpg',
+    enlace: 'https://t.co/oFOMa7R9TC'
   },
   {
-    title: " Presidente PedroCastilloTe: Saludo a las bancadas del Congreso que han dejado algunas malas actitudes para sentarnos a conversar y poner una agenda llamada Perú.",
-    image: 'https://larepublica.pe/resizer/S3OHKcgMaQ-3_ouS9mWdJke2EA0=/1200x660/top/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/HFRTOOBQHEZTSY3GMU4TIZRTGU.jpg',
-    imageText: 'Image Text',
+    title: "Crematorio se niega a incinerar los restos de Abimael Guzmán, cabecilla terrorista de Sendero Luminoso.",
+    image: 'https://cloudfront-us-east-1.images.arcpublishing.com/elcomercio/IRKMMNJJFBASXDQMQWFPYDDUTM.jpg',
+    enlace: 'https://t.co/FLseQyN0Tb',
   },
   {
-    title: "Ministro del Ambiente, Rubén Ramírez, visita feria de productos ecológicos y sostenibles en San Borja.",
-    image: 'https://industriaspesqueras.com/imagenes/genericas/standard_232130430_10159904317109973_5816754285378887220_n.jpg',
+    title: " El volcán de La Palma tiene cinco bocas, la lava avanza hacia el mar y podría afectar a núcleos poblacionales.",
+    image: ' https://static3.abc.es/media/espana/2021/09/19/efe.miguelcalero-U27874245326OQs-620x349@abc.jpeg',
+    enlace: ' https://www.abc.es/espana/canarias/abci-volcan-palma-tiene-cinco-bocas-lava-avanza-hacia-mar-y-podria-afectar-nucleos-poblacionales-202109191833_noticia.html'
   },
 ];
 
 const Deporte = [
   {
-    title: "¡ESTUVO CERCA! Mira con nuestra cámara exclusiva  a ras de cancha el momento en que Hernán Barcos  tuvo el primer tanto de ClubALoficial , pero un atento Raúl Fernández fue más",
-    image: 'https://radiokaribena.pe/wp-content/uploads/2021/02/mauri-fernandez.png',
+    title: "¡TRES PUNTOS! Con un penal atajado por David de Gea , un espectacular tanto de Jesse Lingard  y un soberbio gol de Cristiano Ronaldo , Manchester United  revirtió el marcador y venció 2-1 al West Ham  por la fecha 5 de la Premier League.",
+    image: 'https://images.daznservices.com/di/library/DAZN_News/df/a7/cristiano-ronaldo-david-de-gea-west-ham-manchester-united-premier-league-202122_16fgxlu25cayi176ez4b4hmzjt.jpg?t=36345804&quality=60&h=450',
+    enlace:'https://t.co/6S75KvkuGM'
   },
   {
-    title: "¡Gran gesto! El equipo masculino de Alianza Lima salió a jugar su partido ante Binacional con los apellidos de las jugadoras del plantel femenino, quienes salieron campeonas de la LigaFemeninaxMDeportes 2021.",
-    image: 'https://cdn.futbolperuano.com/sdi/2021/09/12/jugadores-de-alianza-lima-llevaran-camisetas-con-el-nombre-de-su-plantel-femenino-ante-binacional-950893.jpg',
+    title: "¡EQUIPAZO! Con Lionel Messi  desde el inicio, este es el once con el que el PSG  enfrentará al Lyon  en el choque correspondiente a la sexta jornada de la Ligue 1.",
+    image: 'https://www.semana.com/resizer/fS0aTH3iNPsXWbM3_qCeDiRFe2M=/1200x675/filters:format(jpg):quality(50)//cloudfront-us-east-1.images.arcpublishing.com/semana/XBJKDXFUO5HOFJCPGVVTATICQQ.jpg',
+    enlace: 'https://t.co/0q8y5rModS'
   },
   {
-    title: '¡REMONTADA BLANQUIAZUL!  Jefferson Farfán se encargó de anotar un golazo de tiro libre para darle el triunfo por 3-2 a Alianza Lima frente a Binacional. ¡Los blanquiazules siguen como firmes líderes de la Fase 2! ',
-    image: 'https://larepublica.pe/resizer/qXNppZsNhW2OZHy3l90TcJ0nceI=/1200x660/top/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/UVLVUP6E4NBKRF3DNCLCCENRUE.jpg',
+    title: 'Ahora ¡GL DE UNIVERSIDAD SAN MARTÍN! Martín Pérez anota de penal para su equipo y pone el primero en el Miguel Grau del Callao. clubshuancayo 0-1 Club_USMP.',
+    image: 'https://pbs.twimg.com/media/E_qVagYX0AMt3ir.jpg',
+    enlace: 'https://t.co/6au4i0XQoz'
   },
 ];
 
 const Farandula = [
   {
-    title: "Magaly Medina revela que perdió las esperanzas de internacionalizarse: “Ya lo intenté”",
-    image: 'https://www.expreso.com.pe/wp-content/uploads/2019/11/Magaly-Medina.jpg',
+    title: "Reinas del show Emilia Drago se aleja del programa tras romperse una costilla durante ensayos",
+    image: ' https://imgmedia.wapa.pe/1200x660/wapa/original/2021/09/19/6146f24573f20b62e03c3ff2.jpg',
+    enlace:'https://t.co/37wHj0vGq7'
   },
   {
-    title: "Reinas del show 2: ¿quiénes se quedaron y cuántas fueron a sentencia en la segunda gala?",
-    image: 'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAM1RAb.img?h=0&w=600&m=6&q=60&u=t&o=f&l=f&x=618&y=121',
+    title: "PremiosEmmy: Evan Peters gana el premio a Mejor actor de reparto en serie limitada por MareOfEasttown",
+    image: 'https://lasillarotarm.blob.core.windows.net/images/2021/09/19/emmys2021minutoaminutodelagalaalomejordelatelevision-focus-min0.02-0.7-983-557.jpg',
+    enlace: 'https://t.co/aOYIoKS2qT'
   },
 ];
 
 const Mundial = [
   {
-    title: 'No había cuerpos completos: Topos mexicanos recuerdan las labores de rescate tras los ataques del 9/11.',
-    image: 'https://ichef.bbci.co.uk/news/640/amz/worldservice/live/assets/images/2014/09/26/140926130304_topos_624x351_ap.jpg',
+    title: 'Edith Espinal estuvo encerrada durante 40 meses en la Iglesia Menonita de Columbus, en Ohio, para evitar su deportación. Su vida fue plasmada en un documental presentado en el Festival de Cine Latino de NY.',
+    image: 'https://estaticos.efe.com/efecom/recursos2/imagen.aspx?-P-2fL4Jfo8HOMh7E8j2uQLvA5d1QIS-P-2bRrkpQ4TncnkXVSTX-P-2bAoG0sxzXPZPAk5l-P-2fU5UQdufN8Tt-P-2bqmRxj-P-2f2rNCHgg-P-3d-P-3d',
+    enlace: 'https://t.co/mUCMea5ZXW'
   },
   {
-    title: 'Como instrumento para construir una narrativa rebelde, las criptomonedas pueden ser muy útiles como activo no reconocido por ningún otro país del mundo, Bukele se enfrentará a un golpe de realidad.',
-    image: 'https://imagenes.elpais.com/resizer/Jpst_sSIdMbAEpvxvwWyprlKaxY=/980x735/cloudfront-eu-central-1.images.arcpublishing.com/prisa/3ZUSXX2FSUPYT336YD53TU2PE4.jpg',
+    title: 'El secretario de Relaciones Exteriores de México, m_ebrard, anunció los acuerdos adoptados en la reunión de jefes Estado y Gobierno en la VI Cumbre de la PPT_CELAC',
+    image: 'https://i2.wp.com/estoeshoy.com/wp-content/uploads/2021/09/mexico-anuncia-los-acuerdos-adquiridos-durante-la-vi-cumbre-de-la-celac-scaled.jpg?fit=2560%2C2560&ssl=1',
+    enlace: 'https://t.co/NMVotWt67i'
   },
 ];
 
