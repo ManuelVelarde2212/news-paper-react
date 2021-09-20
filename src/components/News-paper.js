@@ -17,20 +17,20 @@ const useStyles = makeStyles((theme) => ({
     marginTop: '40px',
   },
   naranja:{
-    backgroundColor: '#9fd955',
+    backgroundColor: '#573A27',
     position: 'flex',
   },
   rojo:{
-    backgroundColor: '#e85864',
+    backgroundColor: '#5A8B56',
     position: 'flex',
 
   },
   azul:{
-    backgroundColor: '#5687e3',
+    backgroundColor: '#567BAC',
     position: 'flex',
   },
   amarillo:{
-    backgroundColor: '#e36fd0',
+    backgroundColor: '#60A3A8',
     position: 'flex',
   }
 }));

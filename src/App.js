@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: '#000',
   },
   containers:{
-    backgroundColor: '#fff',
+    backgroundColor: '#f9f3tf',
     marginTop: '40px',
   },
 }));
@@ -42,12 +42,11 @@ export default function Blog() {
         <Header title="Twitter's News Bot"/>
       <News></News>
       <div className={classes.name}>
-      <Typography variant="h2" component="h2" gutterBottom className={classes.as}>Nubes de Palabras</Typography>
       <Divider />
       </div>
       
       </Container>
-      <Footer title="Universidad Nacional de San Antonio Abad" description="Escuela Profesional de Ing. Informática y de Sistemas" />
+      <Footer title="Universidad Nacional de San Antonio Abad de Cusco" description="Escuela Profesional de Ing. Informática y de Sistemas" />
     </React.Fragment>
   );
 }

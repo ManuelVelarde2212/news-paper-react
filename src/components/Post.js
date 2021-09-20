@@ -5,6 +5,7 @@ import { createTheme, ThemeProvider } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
+import Tooltip from '@material-ui/core/Tooltip';
 
 
 const themes = createTheme({
@@ -26,6 +27,14 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
     height: '350px',
     borderRadius: '2%',
+    filter: 'saturate(20%)',
+    "&:hover":{
+      transition: 'all 0.5s',
+      transform: 'scale(1.03)',
+      transformOrigin: 'center center',
+      filter: 'saturate(90%)',
+      backgroundColor:'transparent',
+  }
   },
 
   overlay: {
@@ -35,6 +44,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: 'rgba(0,0,0,0.4)',
     borderRadius: '2%',
     "&:hover":{
+      transition: 'all 0.5s',
       color: 'white',
       backgroundColor:'transparent',
     },
@@ -61,25 +71,29 @@ export default function Posting(props) {
   const { posti, tam } = props;
 
   return (
-    
+    <a href={posti.enlace}>
     <Paper className={classes.FeaturedPost} style={{ backgroundImage: `url(${posti.image})`,
-    height: `${tam}px`}}>
+    height: `${tam}px`}} >
       {<img style={{ display: 'none' }} src={posti.image} alt={posti.imageText} />}
       
       <Grid container >
       <div className={classes.overlay} >
         <Grid item md={9}>
+        <Tooltip title={posti.title.length > 150 ? posti.title:''} className='etiqueta'>
           <div className={classes.FeaturedPostContent}>
             <ThemeProvider theme={themes}>
-              <Typography component="h2" display="inline" variant="h6" color="inherit" gutterBottom className={classes.text}>
-                {posti.title}
+              
+              <Typography  component="h2" display="inline" variant="h6" color="inherit" gutterBottom className={classes.text}>
+              {posti.title.length > 150 ? posti.title.substring (0,150) + '...' : posti.title}
               </Typography>
             </ThemeProvider>
           </div>
+              </Tooltip>
         </Grid>
         </div>
       </Grid>
     </Paper>
+    </a>
 
   );
 }
