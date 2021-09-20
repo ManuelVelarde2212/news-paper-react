@@ -45,7 +45,7 @@ export default function Blog() {
       <Typography variant="h2" component="h2" gutterBottom className={classes.as}>Nubes de Palabras</Typography>
       <Divider />
       </div>
-      <Clouds></Clouds>
+      
       </Container>
       <Footer title="Universidad Nacional de San Antonio Abad" description="Escuela Profesional de Ing. Informática y de Sistemas" />
     </React.Fragment>
